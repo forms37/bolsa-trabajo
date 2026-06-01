@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "fechaPublicacion": "2026-06-01T20:08:26.000Z",
+    "institucion": "LIDERA",
+    "correo": "lidera@org.pe",
+    "whatsapp": 961090923,
+    "cargo": "psicologo educativo primaria",
+    "profesion": "psicologo ",
+    "ciudad": "lima",
+    "modalidad": "Presencial",
+    "jornada": "por horas",
+    "funciones": [
+      "Atender alumnos"
+    ],
+    "requisitos": [
+      "bachiller"
+    ],
+    "beneficios": [
+      "beneficios extras"
+    ],
+    "comoPostular": "envia whatsapp",
+    "fechaCierre": "2026-10-10T05:00:00.000Z"
+  }
+]
