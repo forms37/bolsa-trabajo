@@ -1,72 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Bolsa laboral para psicólogos en Perú | Lidera</title>
+    <meta charset="UTF-8">
 
-  <meta name="description"
-        content="Encuentra oportunidades laborales para psicólogos, educadores y profesionales de la salud en Perú. Vacantes actualizadas diariamente.">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-  <meta name="keywords"
-        content="psicólogos, empleo psicología, bolsa laboral, vacantes psicólogos, trabajo psicólogo Perú, salud mental">
+    <title>
+        Bolsa laboral para psicólogos en Perú | Lidera
+    </title>
 
-  <link rel="stylesheet" href="css/estilos.css">
+    <meta name="description"
+          content="Encuentra oportunidades laborales para psicólogos, educadores y profesionales de la salud en Perú. Vacantes actualizadas diariamente.">
+
+    <meta name="keywords"
+          content="psicólogos, empleo psicología, bolsa laboral, vacantes psicólogos, trabajo psicólogo Perú, salud mental">
+
+    <link rel="stylesheet"
+          href="css/estilos.css">
+
 </head>
+
 <body>
 
-<div class="top-header">
+<header class="header">
 
-  <h1>Bolsa laboral Lidera</h1>
+    <div class="contenedor">
 
-  <a
-    href="https://forms.gle/RXkYC1o3yg72rfENA"
-    target="_blank"
-    class="btn-publicar">
+        <div class="header-top">
 
-    ➕ Publicar Vacante
+            <div class="header-info">
 
-  </a>
+                <h1>
+                    Bolsa Laboral Lidera
+                </h1>
 
-</div>
+                <p class="subtitulo">
 
-<p>
-  Oportunidades para psicólogos, educadores y profesionales de la salud.
-</p>
-    <div class="buscador">
+                    Encuentra oportunidades laborales para psicólogos,
+                    educadores y profesionales de la salud en Perú.
 
-      <input
-        type="text"
-        id="buscar"
-        placeholder="Buscar cargo, institución o ciudad">
+                </p>
 
-      <select id="filtroCiudad">
-        <option value="">Todas las ciudades</option>
-      </select>
+            </div>
 
-      <select id="filtroModalidad">
-        <option value="">Todas las modalidades</option>
-      </select>
+            <a href="https://forms.gle/RXkYC1o3yg72rfENA"
+               target="_blank"
+               class="btn-publicar">
 
-      <select id="filtroJornada">
-        <option value="">Todas las jornadas</option>
-      </select>
+                ➕ Publicar Vacante
+
+            </a>
+
+        </div>
+
+        <div class="estadisticas">
+
+            <span id="contadorVacantes">
+
+                0 vacantes activas
+
+            </span>
+
+            <span>
+
+                🇵🇪 Cobertura nacional
+
+            </span>
+
+        </div>
+
+        <div class="buscador">
+
+            <input
+                type="text"
+                id="buscar"
+                placeholder="Buscar cargo, institución o ciudad">
+
+            <select id="filtroCiudad">
+                <option value="">
+                    Todas las ciudades
+                </option>
+            </select>
+
+            <select id="filtroModalidad">
+                <option value="">
+                    Todas las modalidades
+                </option>
+            </select>
+
+            <select id="filtroJornada">
+                <option value="">
+                    Todas las jornadas
+                </option>
+            </select>
+
+        </div>
+
+        <div id="contador"></div>
 
     </div>
 
-    <div id="contador"></div>
-
-  </div>
 </header>
 
 <main class="contenedor">
 
-  <section id="vacantes"></section>
+    <section id="vacantes">
+
+        <!-- Las vacantes se cargan automáticamente desde vacantes.json -->
+
+    </section>
 
 </main>
+
+<footer class="footer">
+
+    <div class="contenedor">
+
+        <p>
+
+            © 2026 Bolsa Laboral Lidera · Todos los derechos reservados
+
+        </p>
+
+    </div>
+
+</footer>
 
 <script src="js/app.js"></script>
 
 </body>
+
 </html>
