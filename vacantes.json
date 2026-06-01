@@ -20,5 +20,49 @@
     ],
     "comoPostular": "envia whatsapp",
     "fechaCierre": "2026-10-10T05:00:00.000Z"
+  },
+  {
+    "fechaPublicacion": "2026-06-01T21:50:47.000Z",
+    "institucion": "Clinica Mezon de sante",
+    "correo": "Mezon@org.pe",
+    "whatsapp": 961090923,
+    "cargo": "Terapeuta",
+    "profesion": "Psicologo",
+    "ciudad": "Ica",
+    "modalidad": "Mixta",
+    "jornada": "part time",
+    "funciones": [
+      "Dar terapia"
+    ],
+    "requisitos": [
+      "Colegiado"
+    ],
+    "beneficios": [
+      "Flexibilidad"
+    ],
+    "comoPostular": "Envia WSP",
+    "fechaCierre": "2026-11-11T05:00:00.000Z"
+  },
+  {
+    "fechaPublicacion": "2026-06-01T21:56:07.000Z",
+    "institucion": "U Lima",
+    "correo": "ulima@gmail.com",
+    "whatsapp": 9610909026,
+    "cargo": "Terapeuta",
+    "profesion": "Psicologo clinico",
+    "ciudad": "ICa",
+    "modalidad": "Mixta",
+    "jornada": "por horas",
+    "funciones": [
+      "Atenciones a pacientes"
+    ],
+    "requisitos": [
+      "Colegiado"
+    ],
+    "beneficios": [
+      "todos"
+    ],
+    "comoPostular": "enviar wsp",
+    "fechaCierre": "2026-11-11T05:00:00.000Z"
   }
 ]
