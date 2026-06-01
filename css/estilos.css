@@ -104,3 +104,33 @@ body{
   }
 
 }
+.top-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:15px;
+  margin-bottom:15px;
+}
+
+.btn-publicar{
+  background:#1565c0;
+  color:#fff;
+  text-decoration:none;
+  padding:12px 20px;
+  border-radius:8px;
+  font-weight:600;
+  transition:.3s;
+}
+
+.btn-publicar:hover{
+  background:#0d47a1;
+}
+
+@media(max-width:768px){
+
+  .top-header{
+    flex-direction:column;
+  }
+
+}
