@@ -119,10 +119,10 @@ function renderizarVacantes() {
 
     });
 
-  document.getElementById("contador")
-    .textContent =
-    filtradas.length +
-    " vacantes activas";
+  document.getElementById("contadorVacantes")
+.textContent =
+filtradas.length +
+" vacantes activas";
 
   const contenedor =
     document.getElementById("vacantes");
